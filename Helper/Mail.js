@@ -23,7 +23,7 @@ let mail = async (to, id, token) => {
             subject: 'Code to reset password',
             html: `<h1>Your Password Reset</h1>
                 <p>Click in below Link & Set the new Passwords</p>
-                <a href="${process.env.EMAIL}/restart/${id}/${token}">Click here</a>
+                <a href="${process.env.EMAIL}restart/${id}/${token}">Click here</a>
           `
         })
 
