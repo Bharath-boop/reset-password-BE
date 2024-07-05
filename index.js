@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 import bcrypt, { hash } from 'bcrypt'
 import jwt, { decode } from 'jsonwebtoken'
 import validator from 'validator'
-import mail from './helper/mail.js'
+import mail from './Helper/Mail.js'
 dotenv.config()
 
 
