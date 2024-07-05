@@ -23,7 +23,7 @@ console.log(process.env.EMAIL);
             subject: 'Code to reset password',
             html: `<h1>Your Password Reset</h1>
                 <p>Click in below Link & Set the new Passwords</p>
-                <a href="${process.env.WEB_URL}/restart/${id}/${token}">${process.env.WEB_URL}restart/${id}/${token}</a>
+                <a href="${process.env.WEB_URL}restart/${id}/${token}">${process.env.WEB_URL}restart/${id}/${token}</a>
           `
         })
 
